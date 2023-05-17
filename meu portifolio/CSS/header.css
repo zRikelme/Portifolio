@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 25px;
+  background-color: #000000;
+  color: #fff;
+}
+
+.logo {
+  margin-left: 30px;
+}
+
+.logo span {
+  color: #FFD700;
+}
+
+.header a {
+  font-size: 18px;
+  color: #fff;
+}
+
+.links-header {
+  display: flex;
+  gap: 30px;
+  margin-right: 30px;
+}
+
+.content-home {
+  color: black;
+}
