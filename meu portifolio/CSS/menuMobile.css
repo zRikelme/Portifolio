@@ -1,0 +1,68 @@
+@media screen and (min-width: 700px) {
+  .menu-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header {
+    padding: 0;
+    display: none;
+  }
+
+  .links-header {
+    display: none;
+  }
+
+
+  .menu-mobile {
+    background-color: #201f1f;
+    width: 90vw;
+    float: right;
+    height: 100vh;
+    z-index: 900;
+    position: relative;
+  }
+
+  .menu-mobile::after {
+    content: "✕";
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 1.6rem;
+    color: #ffffff9c;
+    cursor: pointer;
+  }
+
+  .links-header-mobile li:first-child {
+    margin-top: 50px;
+  }
+
+  .links-header-mobile li{
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .links-header-mobile a {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+
+  .links-header-mobile a:hover {
+    color: #ffffff9c;
+  }
+
+  .border {
+    background-color: #ffffff26;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    width: 80%;
+    height: 1px;
+  }
+
+  section {
+    display: none;
+  }
+}

@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Home</title>
 </head>
@@ -15,17 +16,31 @@
 
     <nav>
       <ul class="links-header">
+        <li><a href="#sobre-mim">Sobre mim</a></li>
         <li><a href="#Projetos">Projetos</a></li>
         <li><a href="#Contatos">Contatos</a></li>
       </ul>
     </nav>
  </header>
 
+ <nav class="menu-mobile" data-aos="fade-left">
+  <ul class="links-header-mobile">
+    <li><a href="#sobre-mim">Sobre mim</a></li>
+    <div class="border"></div>
+    <li><a href="#Projetos">Projetos</a></li>
+    <div class="border"></div>
+    <li><a href="#Contatos">Contatos</a></li>
+    <div class="border"></div>
+  </ul>
+</nav>
+
  <section class="content-home">
   <h2>Web Developer</h2>
   <p> Olá! Meu mome é Rikelme e sou apaixonado pelo ramo de TI. Atualmente estou estudando desenvolvimento web, gosto sempre de estar aprendendo coisas novas relacionados a área.
   </p>
  </section>
-  <script src="script.js"></script>
+
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type ="module" src="script.js"> </script>
 </body>
 </html>
