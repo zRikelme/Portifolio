@@ -3,19 +3,33 @@
   align-items: center;
   justify-content: space-between;
   padding: 15px 25px;
-  background-color: #000000;
+  background-color: #0c0c0c;
   color: #fff;
 }
 
-.logo {
-  margin-left: 30px;
+.logo img {
+  width: 45px;
+  height: 45px;
+  margin-left: 20px;
+  cursor: pointer;
 }
 
-.logo span {
-  color: #FFD700;
+.links-header a:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background: white;
+  margin-top: 4px;
+  transition: 0.3s;
+
 }
 
-.header a {
+.links-header a:hover::after {
+  width: 100%;
+}
+
+.links-header a {
   font-size: 18px;
   color: #fff;
 }

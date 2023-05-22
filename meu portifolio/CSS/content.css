@@ -1,0 +1,78 @@
+.content-home {
+  border-top: 2px solid transparent;
+  background: #000;
+  height: 100vh;
+}
+
+.content-home h2 {
+  color: #0000ff;
+  margin-bottom: 50px;
+  font-size: 2rem;
+  margin-top: 60px;
+  margin-left: 90px;
+}
+
+.nome {
+  color: #E86024;
+}
+
+.profissao {
+  color: #EFD81D;
+}
+
+.content-home h3 {
+  margin-left: 90px;
+  width: 23ch;
+  letter-spacing: 1px;
+  line-height: 40px;
+  font-size: 2rem;
+  margin-top: -30px;
+  color: #fff;
+}
+
+.content-home p {
+ margin-top: 15px;
+ font-size: 1.1rem;
+ width: 35ch;
+ margin-left: 90px;
+ color: #ffffffd0;
+ letter-spacing: .5px;
+}
+
+.technologies {
+  margin-top: 30px;
+  margin-left: 90px;
+}
+
+.technologies img {
+  margin-top: -15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.technologies img:not(.none-img) {
+  width: 38px;
+  height: 48px;
+}
+
+/* animations images */
+@keyframes animaImages {
+
+  0% {
+     transform: translateY(0)
+  
+  }
+
+  50% {
+    transform: translateY(-5px)
+  }
+
+  100% {
+    transform: translateY(0px)
+  }
+
+}
+
+.technologies img  {
+  animation: animaImages 3s ease infinite;
+}

@@ -10,20 +10,21 @@
 </head>
 <body>
  <header class="header">
-    <h1 class="logo">
-        Dev <span>Web</span>
-    </h1>
+    <div class="logo">
+        <img src="imagens/logo.png" alt="logo">
+    </div>
+
+    <button class="menu-burger">☰</button>
 
     <nav>
       <ul class="links-header">
         <li><a href="#sobre-mim">Sobre mim</a></li>
         <li><a href="#Projetos">Projetos</a></li>
-        <li><a href="#Contatos">Contatos</a></li>
       </ul>
     </nav>
  </header>
 
- <nav class="menu-mobile" data-aos="fade-left">
+ <div class="menu-mobile" data-aos="fade-down">
   <ul class="links-header-mobile">
     <li><a href="#sobre-mim">Sobre mim</a></li>
     <div class="border"></div>
@@ -32,12 +33,21 @@
     <li><a href="#Contatos">Contatos</a></li>
     <div class="border"></div>
   </ul>
-</nav>
+</div>
 
  <section class="content-home">
-  <h2>Web Developer</h2>
-  <p> Olá! Meu mome é Rikelme e sou apaixonado pelo ramo de TI. Atualmente estou estudando desenvolvimento web, gosto sempre de estar aprendendo coisas novas relacionados a área.
+  <h2>HELLO, WORLD!</h2>
+  <h3>MEU NOME É <span class="nome">RIKELME</span> E ESTOU ESTUDANDO PARA SER UM <br>
+  <span class="profissao">WEB DEVELOPER</span></h3>
+  <p>
+    Sou apaixonado pelo ramo de TI. Atualmente estou estudando desenvolvimento web, gosto sempre de estar aprendendo coisas novas relacionados a área.
   </p>
+  
+  <ul class="technologies">
+    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank"><img src="imagens/icones/html.svg" alt="HTML"></a>
+    <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank"><img class="none-img" src="imagens/icones/icons8-css-96.svg" alt="CSS"></a>
+    <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank"><img src="imagens/icones/javascript.svg" alt="JS"></a>
+  </ul>
  </section>
 
  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
