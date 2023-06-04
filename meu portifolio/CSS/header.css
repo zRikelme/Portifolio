@@ -3,10 +3,10 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  border-bottom: 3px solid #7373732f;
   position: fixed;
   width: 100vw;
   background-color: white;
+  box-shadow: #9e9e9e62 6px 1px 20px;
 }
 
 .logo-not-finish {
@@ -50,12 +50,4 @@
 .links li a:hover {
   color: #FBD10F;
   transition: .4s ease;
-}
-
-/* contents page */
-
-.content-home {
-  width: 100vw;
-  height: 100vh;
-  background-image: linear-gradient(#d1d0d04e, #8d8d8d25), url('../imagens/istockphoto-1168080557-612x612.jpg');
 }
