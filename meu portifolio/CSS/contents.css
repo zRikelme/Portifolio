@@ -181,13 +181,13 @@
   .description p {
     font-size: 16px;
     width: 51%;
-    top: 45%;
+    top: 50%;
   }
 
   .btn-projects {
     left: 346px;
     width: 110px;
-    top: 65%;
+    top: 70%;
   }
 
   .btn-projects a {
@@ -205,5 +205,59 @@
 
   .links-medias-content {
     padding: 4px 4px;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .links-medias-content {
+    display: none;
+  }
+  
+  .content-home h2 {
+    font-size: 40px;
+    width: 600px;
+    left: 55px;
+  }
+
+  .description p {
+    left: 184px;
+    width: 53ch;
+    font-size: 13px;
+  }
+
+  .btn-projects {
+    left: 310px;
+    top: 75%;
+  }
+
+  .arrow-loop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .content-home h2 {
+    font-size: 40px;
+    left: 10px;
+  }
+
+  .description p {
+    left: 140px;
+    top: 53%;
+  }
+
+  .btn-projects {
+    width: 100px;
+    height: 30px;
+    left: 270px;
+    top: 80%
+  }
+
+  .btn-projects a {
+    font-size: 12px;
+  }
+
+  .links-container {
+  display: none;
   }
 }
