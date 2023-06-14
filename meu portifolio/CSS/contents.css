@@ -10,7 +10,7 @@
 .content-home h2{
   position: absolute;
   top: 29%;
-  left: 29%;
+  left: 30%;
   font-size: 65px;
   letter-spacing: 3px;
   text-align: center;
@@ -18,12 +18,12 @@
 
 .description p{
   position: absolute;
-  top: 58%;
+  top: 59%;
   line-height: 35px;
-  left: 15%;
+  left: 20%;
   font-size: 22px;
   color: #333333;
-  width: 74.8%;
+  width: 60%;
   text-align: center;
   display: inline-block;
   word-break: break-all;
@@ -36,12 +36,12 @@
 .btn-projects {
   position: absolute;
   bottom: 110px;
-  left: 40%;
+  left: 41%;
+  top: 530px;
   border: none;
   background-color: #FACF0F;
   width: 240px;
   height: 60px;
-  text-align: center;
   border-radius: 5px;
   box-shadow: #00000036 1px 1px 10px;
 }
@@ -77,33 +77,11 @@
   transition: .4s ease-in-out;
 }
 
-
-/* RESPONSIVE CONTENT */
-
-@media screen and (max-width: 1100px) {
-  .description p {
-    font-size: 20px;
-    width: 86%;
-  }
-
-  .content-home h2 {
-    font-size: 60px;
-  }
-
-  .btn-projects {
-    position: absolute;
-    bottom: 120px;
-    left: 60%;
-    width: 200px;
-    height: 50px;
-  }
-  
-  .btn-projects a {
-   font-size: 18px;
-  }
-}
-
 /* ABOUT ME */
+.aboutMe {
+  min-width: 1200px;
+  background-color: #FAFAFA;
+}
 
 .know-me-content {
   display: grid;
