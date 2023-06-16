@@ -28,3 +28,52 @@
   margin-top: 60px;
   font-weight: 600;
 }
+
+.projects img{
+  width: 800px;
+}
+
+.portifolio-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+.portifolio-text {
+  margin-top: 90px;
+}
+
+.portifolio-text h3{
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.portifolio-text p {
+  width: 55ch;
+  color: #5c5c5c;
+}
+
+.port-button {
+  margin-top: 30px;
+  border: none;
+  background-color: #FACF0F;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: #00000036 1px 1px 10px;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+
+.port-button a {
+  color: #000;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  letter-spacing: 1px;
+} 
+
+.portifolio-projects-bikcraft {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
