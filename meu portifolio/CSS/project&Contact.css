@@ -37,6 +37,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
+  margin-top: -40px;
 }
 
 .portifolio-text {
@@ -73,7 +74,17 @@
   letter-spacing: 1px;
 } 
 
-.portifolio-projects-bikcraft {
+.portifolio-projects-slide {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.portifolio-projects-slide h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.portifolio-projects-slide p {
+  color: #5c5c5c;
+  width: 55ch;
 }
