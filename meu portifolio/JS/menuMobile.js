@@ -1,4 +1,6 @@
+AOS.init();
 export default function MenuMobile() {
+ 
   const menuBurger = document.querySelector('.menu-plugin');
   const displayMobile = document.querySelector('.links-container-mobile')
 
