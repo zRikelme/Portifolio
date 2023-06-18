@@ -1,11 +1,54 @@
 /* contents page */
 .content-home {
-  width: 100vw;
-  height: 112vh; 
+  position: relative;
   background-image: linear-gradient(#d1d0d04e, #8d8d8d25), url('../imagens/istockphoto-1168080557-612x612.jpg');
-  text-align: center;
 }
 
+.home-text{
+  position: relative;
+  top: 100px;
+  text-align: center;
+  margin: 150px auto;
+}
+
+.home-text h2 {
+  font-size: 60px;
+  letter-spacing: 3px;
+  font-weight: black;
+  margin-bottom: 50px;
+}
+
+.home-text p {
+  font-size: 22px;
+  color: #333;
+  width: 80ch;
+  margin-left: 19%;
+  margin-bottom: 40px;
+}
+
+.home-text span {
+  color: #efc50d;
+}
+
+.home-text button {
+  border: none;
+  background-color: #FACF0F;
+  width: 150px;
+  height: 60px;
+  border-radius: 5px;
+  box-shadow: #00000036 1px 1px 10px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.home-text button a {
+  color: #000;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
 
 .links-medias-content {
   position: absolute;
