@@ -40,6 +40,12 @@
   margin-top: 30px;
   margin-bottom: 50px;
   cursor: pointer;
+  transition: transform .4s ease;
+}
+
+.home-text button:hover {
+  transform: translateY(-4px);
+  transition: all .4s ease;
 }
 
 .home-text button a {
@@ -142,7 +148,14 @@
   border-radius: 5px;
   box-shadow: #00000036 1px 1px 10px;
   margin-bottom: 100px;
+  transition: transform .4s ease;
+  cursor: pointer;
 }
+
+.btn-contact:hover {
+  transform: translateY(-4px);
+}
+
 .btn-contact a {
   color: #000;
   font-size: 16px;
