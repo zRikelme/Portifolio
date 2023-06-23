@@ -29,7 +29,7 @@
 }
 
 .name-logo:hover {
-  color: #FBD10F;
+  color: red;
   cursor: pointer;
   transition: .4s ease;
 }
