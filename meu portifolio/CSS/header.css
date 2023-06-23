@@ -25,10 +25,7 @@
   font-weight: bold;
   letter-spacing: .5px;
   margin-left: 60px;
-}
-
-.name-logo:visited {
-  color: #FACF0F;
+  color: #000;
 }
 
 .name-logo:hover {
