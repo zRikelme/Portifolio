@@ -27,6 +27,10 @@
   margin-left: 60px;
 }
 
+.name-logo:visited {
+  color: #FACF0F;
+}
+
 .name-logo:hover {
   color: #FBD10F;
   cursor: pointer;
