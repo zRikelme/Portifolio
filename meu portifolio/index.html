@@ -11,6 +11,7 @@
 
   <link rel="stylesheet" href="style.css">
   <title>RikelmeSantos / Portifolio</title>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
 </head>
 <body>
 <main>
@@ -83,7 +84,7 @@
         <p>Aqui você encontrará projetos pessoais que eu realizei e tambem de alguns cursos que eu fiz</p>
       </div>
 
-      <div data-aos="fade-right" data-aos-duration="300" class="portifolio-projects">
+      <div data-aos="fade-right" data-aos-duration="200" class="portifolio-projects">
         <img width="800" height="800" style="margin-top: -150px;" src="imagens/notebook/notebook-para-html.png" alt="animais-fantasticos">
 
         <div class="portifolio-text">
@@ -93,7 +94,7 @@
         </div>
       </div>
 
-      <div data-aos="fade-right"  data-aos-duration="300" style="margin-top: -150px;" class="portifolio-projects">
+      <div data-aos="fade-right"  data-aos-duration="200" style="margin-top: -150px;" class="portifolio-projects">
         <img width="800" height="800"style="margin-top: -150px;" src="imagens/notebook/bikcraft.png" alt="bikcraft">
 
         <div class="portifolio-text">
@@ -103,7 +104,7 @@
         </div>
         </div>
 
-        <div data-aos="fade-right"  data-aos-duration="300" style="margin-top: -300px;" class="portifolio-projects-slide">
+        <div data-aos="fade-right"  data-aos-duration="200" style="margin-top: -300px;" class="portifolio-projects-slide">
           <img width="800" height="800" src="imagens/notebook/slide-notebook.png" alt="slide">
   
           <div style="margin-top: 240px;" lass="portifolio-text">
@@ -119,7 +120,7 @@
         <p>Sinta-se a vontade para entrar em contato comigo. Responderei o mais breve possivel</p>
       </div>
 
-    <form class="form" action="">
+    <form class="form" action="https://formsubmit.co/rikelmecontv@gmail.com" method="POST">
       <label for="name">Nome</label>
       <input type="text" name="name" id="name" placeholder="Seu nome">
 
@@ -128,6 +129,7 @@
 
       <label for="message">Mensagem</label>
       <textarea name="message" id="message" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+      <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
 
      <button type="submit">ENVIAR</button>
     </form>
@@ -153,7 +155,6 @@
     
   </footer>
 </main>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script type="module" src="script.js"></script>
 </body>
 </html>

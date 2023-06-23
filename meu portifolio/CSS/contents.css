@@ -18,6 +18,7 @@
   margin-bottom: 50px;
 }
 
+
 .home-text p {
   font-size: 22px;
   color: #333;
@@ -26,7 +27,7 @@
   margin-bottom: 40px;
 }
 
-.home-text span {
+.home-text span:not(.digit-machine) {
   color: #efc50d;
 }
 
