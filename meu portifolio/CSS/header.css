@@ -55,4 +55,114 @@
 }
 
 /* RESPONSIVE HEADER */
+@media screen and (min-width: 800px) {
+  button.menu-hamburguer {
+   display: none;
+  }
+}
+
+
+@media  screen and (max-width: 800px) {
+  .links-container {
+    display: none;
+  }
+
+  .links-container-mobile {
+    position: absolute;
+    position: fixed;
+    top: 88px;
+    z-index: 1;
+    width: 100vw;
+    background-color: #fff;
+    border-top: 1px solid #a3a3a389;
+    box-shadow: #5f5f5f3c -20px 11px 13px 0px;
+  }
+
+  .header {
+    padding: 30px 30px;
+  }
+  
+  .name-logo {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+
+  .logo-not-finish {
+    width: 40px;
+    height: 40px;
+  }
+
+  .links {
+    flex-direction: column;
+    float: right;
+  }
+
+  .links li {
+    padding-bottom: 30px;
+  }
+
+  .links li:first-child {
+    padding-top: 30px;
+  }
+
+  .links li a {
+    font-size: 16px;
+  }
+  
+  /* MENU HAMBURGUER */
+  button.menu-hamburguer {
+    background-color: transparent;
+    border: none;
+    margin-right: 45px;
+  }
+
+  body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    margin: 0;
+  }
+  .menu {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    padding: 0;
+  }
+  .line {
+    fill: none;
+    stroke: black;
+    stroke-width: 6;
+    transition: stroke-dasharray 200ms cubic-bezier(0.4, 0, 0.2, 1),
+      stroke-dashoffset 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .line1 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+  }
+  .line2 {
+    stroke-dasharray: 60 60;
+    stroke-width: 6;
+  }
+  .line3 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+  }
+  .opened .line1 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+  }
+  .opened .line2 {
+    stroke-dasharray: 1 60;
+    stroke-dashoffset: -30;
+    stroke-width: 6;
+  }
+  .opened .line3 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+  }
+}
 
