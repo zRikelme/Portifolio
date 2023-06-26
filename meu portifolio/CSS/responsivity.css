@@ -134,22 +134,18 @@
   .header {
     padding: 30px 0px;
   }
-
   .logo-not-finish {
     width: 35px;
     height: 35px;
     margin-left: 30px;
   }
-
   .name-logo {
     font-size: 16px;
     margin-top: 5px;
   }
-
   .links li a {
     font-size: 14px;
   }
-
   .links-medias-content {
     padding: 2px 2px;
   }
@@ -157,67 +153,149 @@
     width: 30px;
     height: 30px;
   }
-
   .home-text h2 {
     margin-top: 40px;
     font-size: 50px;
   }
-
   .home-text p {
     font-size: 18px;
     text-align: center;
+    width: 70%;
   }
-
  .home-text {
   margin-top: -0px;
  }
-
   .home-text button {
     width: 150px;
     height: 50px;
   }
-
   .home-text button a {
     font-size: 14px;
   }
-
   .aboutMe-content h2 {
     font-size: 30px;
   }
-
   .aboutMe-content p {
     font-size: 18px;
   }
-
   .know-me h3 {
     font-size: 23px;
   }
-
   .btn-contact {
     width: 150px;
     height: 50px;
   }
-
   .btn-contact a {
     font-size: 14px;
   }
-
   .skills h3 {
     font-size: 23px;
   }
-
   .my-skills {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-
   .my-skills li{
    margin-bottom: 20px;
    text-align: center;
-   font-size: 14px;
+   font-size: 18px;
   }
-
   #design {
     margin-top: 1px;
+  }
+  .know-me p {
+    width: 130%;
+  }
+  .projects {
+    height: 210vh;
+  }
+  .project-text h2 {
+    font-size: 30px;
+  }
+  .project-text p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  .projects img {
+    width: 600px;
+    height: 600px;
+  }
+  .portifolio-text {
+    margin-top: 20px;
+  }
+  .portifolio-text h3 {
+    font-size: 23px;
+  }
+  .port-button {
+    width: 120px;
+  }
+  .portifolio-text p {
+    width: 90%;
+  }
+  .port-button a {
+      font-size: 14px;
+  }
+  .text-edit {
+    margin-top: 170px !important;
+  }
+  .contact-text h2 {
+    font-size: 30px;
+  }
+  .contact-text p {
+    font-size: 20px;
+  }
+  .form button {
+    width: 120px;
+    font-size: 14px;
+    margin-left: 500px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .portifolio-projects img {
+    width: 500px;
+    height: 550px;
+    margin-bottom: 60px;
+  }
+  .portifolio-projects-slide img{
+    width: 500px;
+    height: 550px;
+  }
+  .portifolio-text {
+    margin-top: 1px;
+  }
+  .home-text h2 {
+    font-size: 40px;
+  }
+  .home-text p {
+    font-size: 16px;
+  }
+  .home-text button {
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .portifolio-projects {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .projects {
+    padding: 0px 30px;
+  }
+  .projects img {
+    width: 100%;
+    height: 700px;
+  }
+  .portifolio-text {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -220px;
+  }
+  .portifolio-text p {
+    width: 500px;
+  }
+  .port-button {
+    margin-bottom: 200px;
   }
 }
