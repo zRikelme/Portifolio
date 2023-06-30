@@ -276,12 +276,25 @@
 }
 
 @media screen and (max-width: 800px){
+  .menu-hamburguer {
+    margin-right: 20px;
+  }
+  .home-text {
+    margin-top: 50px;
+  }
   .portifolio-projects {
     display: grid;
     grid-template-columns: 1fr;
   }
   .projects {
     padding: 0px 30px;
+    height: 200%;
+  }
+  .projects h2 {
+    font-size: 24px;
+  }
+  .projects p{
+    font-size: 16px;
   }
   .projects img {
     width: 100%;
@@ -297,5 +310,93 @@
   }
   .port-button {
     margin-bottom: 200px;
+  }
+  .home-text h2 {
+    font-size: 35px;
+  }
+  .home-text p {
+    font-size: 14px;
+    width: 60%;
+    text-align: center;
+  }
+  .home-text button {
+    width: 120px;
+    height: 40px;
+    margin-top: -5px;
+    margin-left: -15px;
+  }
+  .home-text button a {
+    font-size: 12px;
+  }
+  .aboutMe-content h2 {
+    font-size: 24px;
+  }
+  .aboutMe-content p  {
+    font-size: 14px;
+  }
+  .skills h3 {
+    font-size: 20px;
+  }
+  .my-skills {
+   display: grid;
+   grid-template-columns: 1fr;
+  }
+  .my-skills li {
+    font-size: 14px;
+  }
+  #design {
+    font-size: 14px;
+    text-align: center;
+    width: 94%;
+  }
+  .know-me h3 {
+    font-size: 20px;
+  }
+  .know-me p {
+    font-size: 14px;
+  }
+  .know-me button {
+    width: 120px;
+    height: 40px;
+  }
+  .know-me button a {
+    font-size: 12px;
+  }
+  .portifolio-projects-slide {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .portifolio-projects-slide img {
+    margin-bottom: -335px;
+  }
+  .contact h2 {
+    font-size: 24px;
+  }
+  .contact p {
+    font-size: 16px;
+  }
+  .form {
+    width: 80%;
+  }
+  .form button {
+    font-size: 12px;
+    width: 120px;
+    height: 40px;
+    margin-left: 76%;
+  }
+  footer {
+    padding: 50px;
+  }
+  .footer-text h3 {
+    font-size: 20px;
+  }
+  .social-media-footer h3 {
+    font-size: 20px;
+  }
+  .social-media-footer img {
+    width: 30px;
+  }
+  .Copyright {
+    margin-left: 32%;
   }
 }
