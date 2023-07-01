@@ -420,4 +420,42 @@
   .links-medias-content img {
     width: 23px;
   }
+  .know-me-content {
+      grid-template-columns: 1fr;
+    }
+    .know-me h3 {
+      text-align: center;
+    }
+    .know-me p {
+      width: 100%;
+    }
+    .know-me button {
+      width: 90px;
+    }
+    .know-me button a {
+      font-size: 10px;
+    }
+    .skills h3 {
+      text-align: center;
+    }
+    .my-skills {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+     }
+     .my-skills li {
+       font-size: 16px;
+     }
+     #design {
+       font-size: 16px;
+       text-align: center;
+       width: 97%;
+       margin-bottom: 60px;
+     }
+     .projects p{
+      font-size: 16px;
+    }
+    .projects img {
+      width: 100%;
+      height: 600px;
+    }
 }
