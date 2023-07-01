@@ -107,18 +107,6 @@
   color: #111111;
 }
 
-.aboutMe-content h2::after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 35px;
-  height: 6px;
-  border-radius: 10px;
-  left: 684px;
-  margin-top: 30px;
-  background-color: #FACF0F;
-}
-
 .aboutMe-content p {
   font-size: 20px;
   margin-top: 60px;

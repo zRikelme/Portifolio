@@ -400,3 +400,24 @@
     margin-left: 32%;
   }
 }
+
+@media screen and (max-width: 700px){
+  .home-text h2 {
+    font-size: 30px;
+  }
+  .home-text p{
+    font-size: 12px;
+  }
+  .home-text button {
+    width: 90px;
+  }
+  .home-text button a {
+    font-size: 10px;
+  }
+  .links-medias-content li{
+    padding: 1px;
+  }
+  .links-medias-content img {
+    width: 23px;
+  }
+}
